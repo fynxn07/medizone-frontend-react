@@ -1,0 +1,2313 @@
+{
+  "Products": [
+    {
+      "id": "2",
+      "name": "Digital Thermometer",
+      "category": "Diagnostics",
+      "price": 300,
+      "stock": "120",
+      "description": "Measures body temperature accurately.",
+      "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "isActive": true,
+      "created_at": "2025-09-01"
+    },
+    {
+      "id": "4",
+      "name": "First Aid Kit",
+      "category": "Therapy & Emergency",
+      "price": 700,
+      "stock": "101",
+      "description": "Portable box with basic medical supplies.",
+      "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+      "isActive": true,
+      "created_at": "2025-09-22"
+    },
+    {
+      "id": "5",
+      "name": "ECG Machine",
+      "category": "Diagnostics",
+      "price": 45000,
+      "stock": 6,
+      "description": "Records electrical signals from the heart.",
+      "image": "https://i.pinimg.com/736x/93/3c/74/933c749869b2f4cf272db60001caeb72.jpg",
+      "isActive": true,
+      "created_at": "2025-09-06"
+    },
+    {
+      "id": "6",
+      "name": "Hand Sanitizer",
+      "category": "Personal Care",
+      "price": 150,
+      "stock": 200,
+      "description": "Kills 99.9% germs and bacteria.",
+      "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+      "isActive": true,
+      "created_at": "2025-09-13"
+    },
+    {
+      "id": "7",
+      "name": "Surgical Mask",
+      "category": "Surgical",
+      "price": 10,
+      "stock": 1000,
+      "description": "Protective face mask for medical procedures.",
+      "image": "https://media.istockphoto.com/id/1279858952/photo/protective-medical-face-mask.jpg?s=612x612&w=0&k=20&c=GlmxFvRBrRlDkYpWKz7Ha7LobTQ1rkx7N6HW_GjnuQw=",
+      "isActive": true,
+      "created_at": "2025-09-07"
+    },
+    {
+      "id": "8",
+      "name": "Paracetamol Tablets",
+      "category": "Pharmacy",
+      "price": 100,
+      "stock": 500,
+      "description": "Pain relief and fever reducer.",
+      "image": "https://media.istockphoto.com/id/1217210776/photo/generic-paracetamol-500mg-tablets.jpg?s=612x612&w=0&k=20&c=Tb7EuiMSA9yw7MpBLrT543Kd_l7IrabQfxfGzRRRgNI=",
+      "isActive": true,
+      "created_at": "2025-09-15"
+    },
+    {
+      "id": "9",
+      "name": "Forceps",
+      "category": "Surgical",
+      "price": 300,
+      "stock": 120,
+      "description": "Surgical instrument for grasping.",
+      "image": "https://media.istockphoto.com/id/612264748/photo/medical-instruments-for-doctor-on-blue-table.jpg?s=612x612&w=0&k=20&c=TmL5PooQEpbssVsnaVOkTCShEe86X2IklRNlX_YmlUE=",
+      "isActive": true,
+      "created_at": "2025-09-12"
+    },
+    {
+      "id": "10",
+      "name": "Scalpel",
+      "category": "Surgical",
+      "price": 100,
+      "stock": 200,
+      "description": "Small sharp blade for surgery.",
+      "image": "https://media.istockphoto.com/id/514131915/photo/surgeon-starting-a-surgery.jpg?s=612x612&w=0&k=20&c=OPrVcgqUiYx-Rs39stfsS0Cl35tYCgiPdpXVvJkzIkg=",
+      "isActive": true,
+      "created_at": "2025-09-12"
+    },
+    {
+      "id": "11",
+      "name": "Surgical Gloves",
+      "category": "Surgical",
+      "price": "20",
+      "stock": "500",
+      "description": "Sterile gloves for surgical use.",
+      "image": "https://media.istockphoto.com/id/1213834193/photo/medical-sterile-gloves-on-a-concrete-background-medical-accessories.jpg?s=612x612&w=0&k=20&c=zYofMerxFTxw8VFHhMj0EzT8KD4TY52kGgSLNrJtj4A=",
+      "isActive": true,
+      "created_at": "2025-09-06"
+    },
+    {
+      "id": "12",
+      "name": "Face Wash",
+      "category": "Personal Care",
+      "price": 120,
+      "stock": 150,
+      "description": "Gentle cleansing for skin.",
+      "image": "https://i.pinimg.com/1200x/13/b8/9e/13b89edd959085a7c744193aa47a875e.jpg",
+      "isActive": true,
+      "created_at": "2025-09-13"
+    },
+    {
+      "id": "13",
+      "name": "Moisturizer",
+      "category": "Personal Care",
+      "price": 300,
+      "stock": 100,
+      "description": "Hydrates and nourishes skin.",
+      "image": "https://i.pinimg.com/1200x/7e/db/f4/7edbf4c716516551a5a32a60671cea83.jpg",
+      "isActive": true,
+      "created_at": "2025-09-14"
+    },
+    {
+      "id": "14",
+      "name": "Shampoo",
+      "category": "Personal Care",
+      "price": 250,
+      "stock": 180,
+      "description": "Cleans hair effectively.",
+      "image": "https://i.pinimg.com/1200x/da/24/fd/da24fd4ecba029c0e37873bb83e02fae.jpg",
+      "isActive": true,
+      "created_at": "2025-09-14"
+    },
+    {
+      "id": "16",
+      "name": "Medical Scissors",
+      "category": "Surgical",
+      "price": 200,
+      "stock": 150,
+      "description": "Sharp scissors for surgical cutting.",
+      "image": "https://media.istockphoto.com/id/116244384/photo/nail-scissors.jpg?s=612x612&w=0&k=20&c=bPRQv0nNn99OpUvIha6Deucmnp_gwhnG1-HtU0kmxig=",
+      "isActive": true,
+      "created_at": "2025-09-11"
+    },
+    {
+      "id": "17",
+      "name": "Ibuprofen Capsules",
+      "category": "Pharmacy",
+      "price": 150,
+      "stock": 300,
+      "description": "Anti-inflammatory and pain relief.",
+      "image": "https://media.istockphoto.com/id/1163798570/photo/ibuprofen-medication.jpg?s=612x612&w=0&k=20&c=I1vFOV29Gf-hGasQR6b-XPPYM1oNlTC5SkxYXoLwN5E=",
+      "isActive": true,
+      "created_at": "2025-09-16"
+    },
+    {
+      "id": "18",
+      "name": "Cough Syrup",
+      "category": "Pharmacy",
+      "price": 200,
+      "stock": 250,
+      "description": "Relieves cough and throat irritation.",
+      "image": "https://i.pinimg.com/736x/54/c0/6c/54c06c7281330b5ad95114ee72bfffe8.jpg",
+      "isActive": true,
+      "created_at": "2025-09-16"
+    },
+    {
+      "id": "19",
+      "name": "Vitamin C Tablets",
+      "category": "Pharmacy",
+      "price": 120,
+      "stock": 400,
+      "description": "Boosts immunity and overall health.",
+      "image": "https://media.istockphoto.com/id/1303688813/photo/effervescent-vitamin-c.jpg?s=612x612&w=0&k=20&c=pm4AU4NlMKmZajCGH-FmQH9HOnfy-9MIOZ0w76WL6IQ=",
+      "isActive": true,
+      "created_at": "2025-09-17"
+    },
+    {
+      "id": "20",
+      "name": "Antiseptic Cream",
+      "category": "Pharmacy",
+      "price": 80,
+      "stock": 300,
+      "description": "Prevents infection on wounds.",
+      "image": "https://images.unsplash.com/photo-1616526629747-c72ee5b45fd4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QW50aXNlcHRpYyUyMGNyZWFtJTIwZm9yJTIwaGhlYWxpbmclMjB3b3VuZHN8ZW58MHx8MHx8fDA%3D",
+      "isActive": true,
+      "created_at": "2025-09-17"
+    },
+    {
+      "id": "21",
+      "name": "Infusion Pump",
+      "category": "Therapy & Emergency",
+      "price": 12000,
+      "stock": 20,
+      "description": "Delivers fluids and medications intravenously.",
+      "image": "https://media.istockphoto.com/id/157727090/photo/infusion-pump-intravenous-iv-drip.jpg?s=612x612&w=0&k=20&c=W_3WPGQ3ZAE0WlfJJRWlmntwczmmI3ZzgMMWADdottk=",
+      "isActive": true,
+      "created_at": "2025-09-04"
+    },
+    {
+      "id": "22",
+      "name": "Defibrillator",
+      "category": "Therapy & Emergency",
+      "price": 75000,
+      "stock": 10,
+      "description": "Restores normal heartbeat with electric shock.",
+      "image": "https://i.pinimg.com/1200x/40/ea/20/40ea201499d0492c2315e3f90692d6df.jpg",
+      "isActive": true,
+      "created_at": "2025-09-05"
+    },
+    {
+      "id": "24",
+      "name": "Ventilator",
+      "category": "Therapy & Emergency",
+      "price": 300000,
+      "stock": 2,
+      "description": "Provides mechanical ventilation to patients.",
+      "image": "https://i.pinimg.com/1200x/24/e2/de/24e2de3a5a4dcc1f9193750c58d50bdc.jpg",
+      "isActive": true,
+      "created_at": "2025-09-09"
+    },
+    {
+      "id": "25",
+      "name": "Oximeter",
+      "category": "Diagnostics",
+      "price": 1500,
+      "stock": 75,
+      "description": "Measures oxygen saturation in blood.",
+      "image": "https://media.istockphoto.com/id/1270997515/photo/portable-pulse-oximetry-pulse-oximeter-fingertip-on-the-wooden-table-3d-rendering.jpg?s=612x612&w=0&k=20&c=8mjogcVmCiel-VvCQeZ0JVOnS7TGqHCCuyZuxH4e4UM=",
+      "isActive": true,
+      "created_at": "2025-09-02"
+    },
+    {
+      "id": "26",
+      "name": "Hospital Bed",
+      "category": "Equipment / Furniture",
+      "price": 25000,
+      "stock": 8,
+      "description": "Adjustable hospital bed with rails and wheels.",
+      "image": "https://i.pinimg.com/736x/fe/32/93/fe3293a34e61bc3386cce182715fdec0.jpg",
+      "isActive": true,
+      "created_at": "2025-09-05"
+    },
+    {
+      "id": "27",
+      "name": "IV Stand",
+      "category": "Equipment / Furniture",
+      "price": 1500,
+      "stock": 40,
+      "description": "Stand for intravenous fluid administration.",
+      "image": "https://i.pinimg.com/736x/fa/16/51/fa1651c16d69e2c9a9e9f6881eb6611f.jpg",
+      "isActive": true,
+      "created_at": "2025-09-10"
+    },
+    {
+      "id": "28",
+      "name": "Examination Table",
+      "category": "Equipment / Furniture",
+      "price": 7000,
+      "stock": 10,
+      "description": "Table used for patient examination.",
+      "image": "https://i.pinimg.com/1200x/70/a2/53/70a253665489018b6695bc7e5507048a.jpg",
+      "isActive": true,
+      "created_at": "2025-09-10"
+    },
+    {
+      "id": "29",
+      "name": "Medical Trolley",
+      "category": "Equipment / Furniture",
+      "price": 4500,
+      "stock": 12,
+      "description": "Trolley for carrying medical tools.",
+      "image": "https://i.pinimg.com/1200x/fc/73/8e/fc738e2121e2c53da7edb01aeda3e20f.jpg",
+      "isActive": true,
+      "created_at": "2025-09-15"
+    },
+    {
+      "id": "30",
+      "name": "Sterilizer",
+      "category": "Equipment / Furniture",
+      "price": 20000,
+      "stock": 7,
+      "description": "Device to sterilize medical instruments.",
+      "image": "https://media.istockphoto.com/id/185107993/photo/medical-sterilization-equipment.webp?a=1&b=1&s=612x612&w=0&k=20&c=LJxxL-qf2tfkuXSPDPHeF7GnGAmj6dnkEghQ6XWV1oE=",
+      "isActive": true,
+      "created_at": "2025-09-11"
+    },
+    {
+      "id": "31",
+      "name": "Nebulizer",
+      "category": "Therapy & Emergency",
+      "price": 1800,
+      "stock": 30,
+      "description": "Converts medicine into mist for inhalation.",
+      "image": "https://i.pinimg.com/1200x/d7/bf/ce/d7bfceff0c8684ad6a04ae04c89cb185.jpg",
+      "isActive": true,
+      "created_at": "2025-09-08"
+    },
+    {
+      "id": "32",
+      "name": "Syringe Pump",
+      "category": "Therapy & Emergency",
+      "price": 10000,
+      "stock": 12,
+      "description": "Device for controlled delivery of fluids.",
+      "image": "https://i.pinimg.com/1200x/e1/03/0d/e1030da81b723dbb227b513eed7c0f6c.jpg",
+      "isActive": true,
+      "created_at": "2025-09-08"
+    },
+    {
+      "id": "33",
+      "name": "Dialysis Machine",
+      "category": "Therapy & Emergency",
+      "price": 250000,
+      "stock": 2,
+      "description": "Removes waste from blood when kidneys fail.",
+      "image": "https://i.pinimg.com/1200x/27/ad/e2/27ade2afd24df4fb036c7335b64eb64f.jpg",
+      "isActive": true,
+      "created_at": "2025-09-20"
+    },
+    {
+      "id": "34",
+      "name": "CPAP Machine",
+      "category": "Therapy & Emergency",
+      "price": 40000,
+      "stock": 6,
+      "description": "Continuous airway pressure machine for sleep apnea.",
+      "image": "https://i.pinimg.com/1200x/7e/89/ae/7e89ae9129cda4f8feb7103e77344ae6.jpg",
+      "isActive": true,
+      "created_at": "2025-09-24"
+    },
+    {
+      "id": "35",
+      "name": "Anesthesia Machine",
+      "category": "Therapy & Emergency",
+      "price": 220000,
+      "stock": 2,
+      "description": "Provides anesthesia gases to patients.",
+      "image": "https://i.pinimg.com/736x/94/04/b8/9404b88409130fbb50358f8a151b150f.jpg",
+      "isActive": true,
+      "created_at": "2025-09-22"
+    },
+    {
+      "id": "36",
+      "name": "Crutches",
+      "category": "Personal Care",
+      "price": 900,
+      "stock": 25,
+      "description": "Assistive walking device for injured patients.",
+      "image": "https://i.pinimg.com/1200x/b7/b5/e5/b7b5e5f49594fd72f67e398b5b03aa9b.jpg",
+      "isActive": true,
+      "created_at": "2025-09-07"
+    },
+    {
+      "id": "37",
+      "name": "Wheel Chair",
+      "category": "Personal Care",
+      "price": 7000,
+      "stock": 60,
+      "description": "Support  for elderly and patients.",
+      "image": "https://media.istockphoto.com/id/869485696/photo/a-modern-wheelchair-stands-on-the-background-of-a-large-panoramic-window-in-a-modern-bright.jpg?s=612x612&w=0&k=20&c=4-hyitCGwGo-USJMm-NN-KUVfzlAjRqy9q0NEVYfkeA=",
+      "isActive": true,
+      "created_at": "2025-09-23"
+    },
+    {
+      "id": "38",
+      "name": "Prosthetic Leg",
+      "category": "Personal Care",
+      "price": 50000,
+      "stock": 5,
+      "description": "Artificial leg for amputees.",
+      "image": "https://i.pinimg.com/736x/1f/87/3e/1f873e17c669ec2c5dc527b1ae423df5.jpg",
+      "isActive": true,
+      "created_at": "2025-09-23"
+    },
+    {
+      "id": "39",
+      "name": "Prosthetic Arm",
+      "category": "Personal Care",
+      "price": 60000,
+      "stock": 4,
+      "description": "Artificial arm for amputees.",
+      "image": "https://i.pinimg.com/736x/a8/c7/b1/a8c7b167de63003c09feb2b5f1433c3e.jpg",
+      "isActive": true,
+      "created_at": "2025-09-24"
+    },
+    {
+      "id": "40",
+      "name": "Medical Refrigerator",
+      "category": "Equipment / Furniture",
+      "price": 75000,
+      "stock": 3,
+      "description": "Special refrigerator for storing vaccines and medicines.",
+      "image": "https://i.pinimg.com/736x/fa/e0/f1/fae0f14f3704f2ce2faf141961932225.jpg",
+      "isActive": true,
+      "created_at": "2025-09-25"
+    },
+    {
+      "id": "41",
+      "name": "Medical Lamp",
+      "category": "Equipment / Furniture",
+      "price": 5000,
+      "stock": 20,
+      "description": "Surgical lamp for better visibility.",
+      "image": "https://i.pinimg.com/736x/d6/7b/ce/d67bce9d63b841714785de9b4c131f72.jpg",
+      "isActive": true,
+      "created_at": "2025-09-14"
+    },
+    {
+      "id": "42",
+      "name": "Endoscope",
+      "category": "Equipment / Furniture",
+      "price": 80000,
+      "stock": 4,
+      "description": "Flexible tube with camera for internal exams.",
+      "image": "https://i.pinimg.com/1200x/5e/ea/32/5eea3247c85c15d4db7711385523817e.jpg",
+      "isActive": true,
+      "created_at": "2025-09-21"
+    },
+    {
+      "id": "43",
+      "name": "Dental Chair",
+      "category": "Equipment / Furniture",
+      "price": 90000,
+      "stock": 3,
+      "description": "Chair designed for dental treatments.",
+      "image": "https://i.pinimg.com/736x/08/d3/a4/08d3a40d41339b51b3b82eaa36d543b1.jpg",
+      "isActive": true,
+      "created_at": "2025-09-17"
+    },
+    {
+      "id": "44",
+      "name": "Dental Drill",
+      "category": "Equipment / Furniture",
+      "price": 15000,
+      "stock": 8,
+      "description": "High-speed drill for dental procedures.",
+      "image": "https://i.pinimg.com/736x/d4/6d/3a/d46d3a6ebf7afdaecbe57b6cad02cae8.jpg",
+      "isActive": true,
+      "created_at": "2025-09-17"
+    },
+    {
+      "id": "45",
+      "name": "Tongue Depressor",
+      "category": "Surgical",
+      "price": 5,
+      "stock": 600,
+      "description": "Wooden stick for throat examination.",
+      "image": "https://i.pinimg.com/1200x/54/ef/ab/54efab016e1b7a2788ab5429d73cf0bb.jpg",
+      "isActive": true,
+      "created_at": "2025-09-18"
+    },
+    {
+      "id": "46",
+      "name": "Ophthalmoscope",
+      "category": "Surgical",
+      "price": 7000,
+      "stock": 10,
+      "description": "Device for examining eyes.",
+      "image": "https://images.pexels.com/photos/5996697/pexels-photo-5996697.jpeg",
+      "isActive": true,
+      "created_at": "2025-09-18"
+    },
+    {
+      "id": "47",
+      "name": "Otoscope",
+      "category": "Surgical",
+      "price": 4500,
+      "stock": 15,
+      "description": "Used to look into the ears.",
+      "image": "https://i.pinimg.com/1200x/e9/4d/8e/e94d8e531d0eafa32ce77668332dca37.jpg",
+      "isActive": true,
+      "created_at": "2025-09-19"
+    },
+    {
+      "id": "48",
+      "name": "Speculum",
+      "category": "Surgical",
+      "price": 250,
+      "stock": 90,
+      "description": "Instrument for examining body orifices.",
+      "image": "https://i.pinimg.com/1200x/c7/0a/55/c70a55bdf2241021f6c655df1cdbd6c7.jpg",
+      "isActive": true,
+      "created_at": "2025-09-19"
+    },
+    {
+      "id": "49",
+      "name": "Orthopedic Cast",
+      "category": "Therapy & Emergency",
+      "price": 400,
+      "stock": 100,
+      "description": "Used to immobilize broken bones.",
+      "image": "https://i.pinimg.com/736x/e3/e2/1e/e3e21e3a2671015cfae33ee3e9e75be5.jpg",
+      "isActive": true,
+      "created_at": "2025-09-20"
+    },
+    {
+      "id": "50",
+      "name": "Sphygmomanometer",
+      "category": "Diagnostics",
+      "price": 1800,
+      "stock": 30,
+      "description": "Manual device for measuring blood pressure.",
+      "image": "https://i.pinimg.com/736x/42/8a/90/428a90317a19dac9321ef744beda92fe.jpg",
+      "isActive": true,
+      "created_at": "2025-09-21"
+    },
+    {
+      "id": "1758274521141",
+      "name": "Ultasound Machine",
+      "category": "Therapy & Emergency",
+      "price": "50000",
+      "stock": "7",
+      "description": "A high-quality ultrasound machine used for diagnostic imaging.",
+      "image": "https://i.pinimg.com/736x/ae/05/6a/ae056a5f58da84f491068b6eae5c92d9.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "e1fe",
+      "name": "Suhail",
+      "email": "suhailMonna@gmail.com",
+      "password": "adjJKHDHkd",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/4/2025",
+      "cart": [
+        {
+          "id": 2,
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 4
+        },
+        {
+          "id": 7,
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-07",
+          "quantity": 5
+        },
+        {
+          "id": 8,
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 3
+        },
+        {
+          "id": 6,
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "ECG Machine",
+          "category": "Diagnostics",
+          "price": 45000,
+          "stock": 6,
+          "description": "Records electrical signals from the heart.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-06",
+          "quantity": 2
+        }
+      ],
+      "orders": [],
+      "wishlist": []
+    },
+    {
+      "id": "33bf",
+      "name": "Finan cr",
+      "email": "finankolamban7@gmail.com",
+      "password": "773629",
+      "role": "user",
+      "isBlock": true,
+      "created_at": "9/10/2025",
+      "cart": [
+        {
+          "id": 2,
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 6
+        },
+        {
+          "id": 7,
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-07",
+          "quantity": 6
+        },
+        {
+          "id": 8,
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 6
+        },
+        {
+          "id": 6,
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 3
+        },
+        {
+          "id": 5,
+          "name": "ECG Machine",
+          "category": "Diagnostics",
+          "price": 45000,
+          "stock": 6,
+          "description": "Records electrical signals from the heart.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-06",
+          "quantity": 2
+        },
+        {
+          "id": 15,
+          "name": "Soap Bar",
+          "category": "Personal Care",
+          "price": 50,
+          "stock": 300,
+          "description": "Cleanses skin gently.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 4
+        },
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 2
+        }
+      ],
+      "orders": [],
+      "wishlist": []
+    },
+    {
+      "id": "fdc8",
+      "name": "Roshan",
+      "email": "Roshan@gmail.com",
+      "password": "9876",
+      "role": "user",
+      "isBlock": true,
+      "created_at": "9/10/2025",
+      "cart": [
+        {
+          "id": 7,
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-07",
+          "quantity": 6
+        },
+        {
+          "id": 8,
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 6
+        },
+        {
+          "id": 6,
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 3
+        },
+        {
+          "id": 5,
+          "name": "ECG Machine",
+          "category": "Diagnostics",
+          "price": 45000,
+          "stock": 6,
+          "description": "Records electrical signals from the heart.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-06",
+          "quantity": 2
+        },
+        {
+          "id": 15,
+          "name": "Soap Bar",
+          "category": "Personal Care",
+          "price": 50,
+          "stock": 300,
+          "description": "Cleanses skin gently.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 4
+        },
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": 100,
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22",
+          "quantity": 1
+        },
+        {
+          "id": "42",
+          "name": "Endoscope",
+          "category": "Equipment / Furniture",
+          "price": 80000,
+          "stock": 4,
+          "description": "Flexible tube with camera for internal exams.",
+          "image": "https://i.pinimg.com/1200x/5e/ea/32/5eea3247c85c15d4db7711385523817e.jpg",
+          "isActive": true,
+          "created_at": "2025-09-21",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 1
+        }
+      ],
+      "orders": [],
+      "wishlist": [
+        {
+          "id": "10",
+          "name": "Scalpel",
+          "category": "Surgical",
+          "price": 100,
+          "stock": 200,
+          "description": "Small sharp blade for surgery.",
+          "image": "https://media.istockphoto.com/id/514131915/photo/surgeon-starting-a-surgery.jpg?s=612x612&w=0&k=20&c=OPrVcgqUiYx-Rs39stfsS0Cl35tYCgiPdpXVvJkzIkg=",
+          "isActive": true,
+          "created_at": "2025-09-12"
+        },
+        {
+          "id": "35",
+          "name": "Anesthesia Machine",
+          "category": "Therapy & Emergency",
+          "price": 220000,
+          "stock": 2,
+          "description": "Provides anesthesia gases to patients.",
+          "image": "https://i.pinimg.com/736x/94/04/b8/9404b88409130fbb50358f8a151b150f.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22"
+        },
+        {
+          "id": "7",
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://media.istockphoto.com/id/1279858952/photo/protective-medical-face-mask.jpg?s=612x612&w=0&k=20&c=GlmxFvRBrRlDkYpWKz7Ha7LobTQ1rkx7N6HW_GjnuQw=",
+          "isActive": true,
+          "created_at": "2025-09-07"
+        }
+      ]
+    },
+    {
+      "id": "809c",
+      "name": "kolamban",
+      "email": "kolamban@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/10/2025",
+      "cart": [
+        {
+          "id": 3,
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-02",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": 100,
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22",
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 1
+        },
+        {
+          "id": 11,
+          "name": "Surgical Gloves",
+          "category": "Surgical",
+          "price": 15,
+          "stock": 500,
+          "description": "Sterile gloves for surgical use.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-06",
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-07",
+          "quantity": 2
+        },
+        {
+          "id": 8,
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 1
+        }
+      ],
+      "orders": [],
+      "wishlist": []
+    },
+    {
+      "id": "7c1f",
+      "name": "finu",
+      "email": "finu@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/10/2025",
+      "cart": [
+        {
+          "id": 11,
+          "name": "Surgical Gloves",
+          "category": "Surgical",
+          "price": 15,
+          "stock": 500,
+          "description": "Sterile gloves for surgical use.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-06",
+          "quantity": 2
+        },
+        {
+          "id": 10,
+          "name": "Scalpel",
+          "category": "Surgical",
+          "price": 100,
+          "stock": 200,
+          "description": "Small sharp blade for surgery.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-12",
+          "quantity": 1
+        }
+      ],
+      "orders": [],
+      "wishlist": [
+        {
+          "id": 2,
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-01"
+        },
+        {
+          "id": 11,
+          "name": "Surgical Gloves",
+          "category": "Surgical",
+          "price": 15,
+          "stock": 500,
+          "description": "Sterile gloves for surgical use.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-06"
+        },
+        {
+          "id": 10,
+          "name": "Scalpel",
+          "category": "Surgical",
+          "price": 100,
+          "stock": 200,
+          "description": "Small sharp blade for surgery.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-12"
+        },
+        {
+          "id": 9,
+          "name": "Forceps",
+          "category": "Surgical",
+          "price": 300,
+          "stock": 120,
+          "description": "Surgical instrument for grasping.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-12"
+        },
+        {
+          "id": 19,
+          "name": "Vitamin C Tablets",
+          "category": "Pharmacy",
+          "price": 120,
+          "stock": 400,
+          "description": "Boosts immunity and overall health.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-17"
+        }
+      ]
+    },
+    {
+      "id": "1865",
+      "name": "finn",
+      "email": "finn@gmail.com",
+      "password": "fin1234",
+      "role": "user",
+      "isBlock": true,
+      "created_at": "9/12/2025",
+      "cart": [
+        {
+          "id": 7,
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-07",
+          "quantity": 5
+        },
+        {
+          "id": 8,
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 6
+        },
+        {
+          "id": 6,
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "ECG Machine",
+          "category": "Diagnostics",
+          "price": 45000,
+          "stock": 6,
+          "description": "Records electrical signals from the heart.",
+          "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+          "isActive": true,
+          "created_at": "2025-09-06",
+          "quantity": 2
+        },
+        {
+          "id": 15,
+          "name": "Soap Bar",
+          "category": "Personal Care",
+          "price": 50,
+          "stock": 300,
+          "description": "Cleanses skin gently.",
+          "image": "",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 4
+        },
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": 100,
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22",
+          "quantity": 1
+        },
+        {
+          "id": "42",
+          "name": "Endoscope",
+          "category": "Equipment / Furniture",
+          "price": 80000,
+          "stock": 4,
+          "description": "Flexible tube with camera for internal exams.",
+          "image": "https://i.pinimg.com/1200x/5e/ea/32/5eea3247c85c15d4db7711385523817e.jpg",
+          "isActive": true,
+          "created_at": "2025-09-21",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 1
+        },
+        {
+          "id": "22",
+          "name": "Defibrillator",
+          "category": "Therapy & Emergency",
+          "price": 75000,
+          "stock": 10,
+          "description": "Restores normal heartbeat with electric shock.",
+          "image": "https://i.pinimg.com/1200x/40/ea/20/40ea201499d0492c2315e3f90692d6df.jpg",
+          "isActive": true,
+          "created_at": "2025-09-05",
+          "quantity": 1
+        }
+      ],
+      "orders": [],
+      "wishlist": [
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01"
+        },
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": 100,
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22"
+        }
+      ]
+    },
+    {
+      "id": "a8ce",
+      "name": "main",
+      "email": "main@gmail.com",
+      "password": "main123",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/12/2025",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02",
+          "quantity": 1
+        },
+        {
+          "id": "11",
+          "name": "Surgical Gloves",
+          "category": "Surgical",
+          "price": 15,
+          "stock": 500,
+          "description": "Sterile gloves for surgical use.",
+          "image": "https://media.istockphoto.com/id/1213834193/photo/medical-sterile-gloves-on-a-concrete-background-medical-accessories.jpg?s=612x612&w=0&k=20&c=zYofMerxFTxw8VFHhMj0EzT8KD4TY52kGgSLNrJtj4A=",
+          "isActive": true,
+          "created_at": "2025-09-06",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://media.istockphoto.com/id/1217210776/photo/generic-paracetamol-500mg-tablets.jpg?s=612x612&w=0&k=20&c=Tb7EuiMSA9yw7MpBLrT543Kd_l7IrabQfxfGzRRRgNI=",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "name": "Infusion Pump",
+          "category": "Therapy & Emergency",
+          "price": 12000,
+          "stock": 20,
+          "description": "Delivers fluids and medications intravenously.",
+          "image": "https://media.istockphoto.com/id/157727090/photo/infusion-pump-intravenous-iv-drip.jpg?s=612x612&w=0&k=20&c=W_3WPGQ3ZAE0WlfJJRWlmntwczmmI3ZzgMMWADdottk=",
+          "isActive": true,
+          "created_at": "2025-09-04",
+          "quantity": 2
+        },
+        {
+          "id": "7",
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://media.istockphoto.com/id/1279858952/photo/protective-medical-face-mask.jpg?s=612x612&w=0&k=20&c=GlmxFvRBrRlDkYpWKz7Ha7LobTQ1rkx7N6HW_GjnuQw=",
+          "isActive": true,
+          "created_at": "2025-09-07",
+          "quantity": 2
+        }
+      ],
+      "orders": [],
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02"
+        },
+        {
+          "id": "21",
+          "name": "Infusion Pump",
+          "category": "Therapy & Emergency",
+          "price": 12000,
+          "stock": 20,
+          "description": "Delivers fluids and medications intravenously.",
+          "image": "https://media.istockphoto.com/id/157727090/photo/infusion-pump-intravenous-iv-drip.jpg?s=612x612&w=0&k=20&c=W_3WPGQ3ZAE0WlfJJRWlmntwczmmI3ZzgMMWADdottk=",
+          "isActive": true,
+          "created_at": "2025-09-04"
+        },
+        {
+          "id": "7",
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://media.istockphoto.com/id/1279858952/photo/protective-medical-face-mask.jpg?s=612x612&w=0&k=20&c=GlmxFvRBrRlDkYpWKz7Ha7LobTQ1rkx7N6HW_GjnuQw=",
+          "isActive": true,
+          "created_at": "2025-09-07"
+        },
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "id": "f9ea",
+      "name": "ronaldo",
+      "email": "ronaldo@gmail.com",
+      "password": "ronaldo",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/12/2025",
+      "cart": [
+        {
+          "id": "24",
+          "name": "Ventilator",
+          "category": "Therapy & Emergency",
+          "price": 300000,
+          "stock": 2,
+          "description": "Provides mechanical ventilation to patients.",
+          "image": "https://i.pinimg.com/1200x/24/e2/de/24e2de3a5a4dcc1f9193750c58d50bdc.jpg",
+          "isActive": true,
+          "created_at": "2025-09-09",
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "id": "ORD-Q0V3AP",
+          "shippingInfo": {
+            "fullName": "Finan",
+            "phone": "9823560923",
+            "address": "Abc,street",
+            "pincode": "654392"
+          },
+          "paymentMethod": "gpay",
+          "items": [
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": 120,
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 1
+            },
+            {
+              "id": "3",
+              "name": "Blood Pressure Monitor",
+              "category": "Diagnostics",
+              "price": 2500,
+              "stock": 40,
+              "description": "Monitors blood pressure and pulse rate.",
+              "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+              "isActive": true,
+              "created_at": "2025-09-02",
+              "quantity": 1
+            },
+            {
+              "id": "4",
+              "name": "First Aid Kit",
+              "category": "Therapy & Emergency",
+              "price": 700,
+              "stock": 100,
+              "description": "Portable box with basic medical supplies.",
+              "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+              "isActive": true,
+              "created_at": "2025-09-22",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 3500,
+          "orderDate": "9/3/2025",
+          "status": "Cancelled"
+        },
+        {
+          "id": "ORD-Y1C0DM",
+          "shippingInfo": {
+            "fullName": "Rohit",
+            "phone": "9867325670",
+            "address": "Akm street Mannarkkad",
+            "pincode": "624984"
+          },
+          "paymentMethod": "card",
+          "items": [
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": 120,
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 300,
+          "orderDate": "9/7/2025",
+          "status": "Cancelled"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "21",
+          "name": "Infusion Pump",
+          "category": "Therapy & Emergency",
+          "price": 12000,
+          "stock": 20,
+          "description": "Delivers fluids and medications intravenously.",
+          "image": "https://media.istockphoto.com/id/157727090/photo/infusion-pump-intravenous-iv-drip.jpg?s=612x612&w=0&k=20&c=W_3WPGQ3ZAE0WlfJJRWlmntwczmmI3ZzgMMWADdottk=",
+          "isActive": true,
+          "created_at": "2025-09-04"
+        },
+        {
+          "id": "6",
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+          "isActive": true,
+          "created_at": "2025-09-13"
+        }
+      ]
+    },
+    {
+      "id": "370b",
+      "name": "Finan",
+      "email": "finankolamban7@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/12/2025",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": "120",
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02",
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "id": "ORD-M5K0KL",
+          "shippingInfo": {
+            "fullName": "Virat ",
+            "phone": "72345432123",
+            "address": "Xyz street, Palakkad",
+            "pincode": "641098"
+          },
+          "paymentMethod": "gpay",
+          "items": [
+            {
+              "id": "24",
+              "name": "Ventilator",
+              "category": "Therapy & Emergency",
+              "price": 300000,
+              "stock": 2,
+              "description": "Provides mechanical ventilation to patients.",
+              "image": "https://i.pinimg.com/1200x/24/e2/de/24e2de3a5a4dcc1f9193750c58d50bdc.jpg",
+              "isActive": true,
+              "created_at": "2025-09-09",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 300000,
+          "orderDate": "9/10/2025",
+          "status": "Cancelled"
+        },
+        {
+          "id": "ORD-K5C4OL",
+          "shippingInfo": {
+            "fullName": "Finan Roshan K",
+            "phone": "7736295327",
+            "address": "Kolamban House,Mannarkkad",
+            "pincode": "678582"
+          },
+          "paymentMethod": "gpay",
+          "items": [
+            {
+              "id": 7,
+              "name": "Surgical Mask",
+              "category": "Surgical",
+              "price": 10,
+              "stock": 1000,
+              "description": "Protective face mask for medical procedures.",
+              "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+              "isActive": true,
+              "created_at": "2025-09-07",
+              "quantity": 4
+            },
+            {
+              "id": 8,
+              "name": "Paracetamol Tablets",
+              "category": "Pharmacy",
+              "price": 100,
+              "stock": 500,
+              "description": "Pain relief and fever reducer.",
+              "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+              "isActive": true,
+              "created_at": "2025-09-15",
+              "quantity": 5
+            },
+            {
+              "id": 6,
+              "name": "Hand Sanitizer",
+              "category": "Personal Care",
+              "price": 150,
+              "stock": 200,
+              "description": "Kills 99.9% germs and bacteria.",
+              "image": "https://i.pinimg.com/736x/31/c3/df/31c3df3a333e2bada5e06aea738e7ab3.jpg",
+              "isActive": true,
+              "created_at": "2025-09-13",
+              "quantity": 1
+            },
+            {
+              "id": 15,
+              "name": "Soap Bar",
+              "category": "Personal Care",
+              "price": 50,
+              "stock": 300,
+              "description": "Cleanses skin gently.",
+              "image": "",
+              "isActive": true,
+              "created_at": "2025-09-15",
+              "quantity": 4
+            },
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": 120,
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 3
+            },
+            {
+              "id": "3",
+              "name": "Blood Pressure Monitor",
+              "category": "Diagnostics",
+              "price": 2500,
+              "stock": 40,
+              "description": "Monitors blood pressure and pulse rate.",
+              "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+              "isActive": true,
+              "created_at": "2025-09-02",
+              "quantity": 2
+            },
+            {
+              "id": "4",
+              "name": "First Aid Kit",
+              "category": "Therapy & Emergency",
+              "price": 700,
+              "stock": 100,
+              "description": "Portable box with basic medical supplies.",
+              "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+              "isActive": true,
+              "created_at": "2025-09-22",
+              "quantity": 1
+            },
+            {
+              "id": "42",
+              "name": "Endoscope",
+              "category": "Equipment / Furniture",
+              "price": 80000,
+              "stock": 4,
+              "description": "Flexible tube with camera for internal exams.",
+              "image": "https://i.pinimg.com/1200x/5e/ea/32/5eea3247c85c15d4db7711385523817e.jpg",
+              "isActive": true,
+              "created_at": "2025-09-21",
+              "quantity": 1
+            },
+            {
+              "id": "6",
+              "name": "Hand Sanitizer",
+              "category": "Personal Care",
+              "price": 150,
+              "stock": 200,
+              "description": "Kills 99.9% germs and bacteria.",
+              "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+              "isActive": true,
+              "created_at": "2025-09-13",
+              "quantity": 1
+            },
+            {
+              "id": "22",
+              "name": "Defibrillator",
+              "category": "Therapy & Emergency",
+              "price": 75000,
+              "stock": 10,
+              "description": "Restores normal heartbeat with electric shock.",
+              "image": "https://i.pinimg.com/1200x/40/ea/20/40ea201499d0492c2315e3f90692d6df.jpg",
+              "isActive": true,
+              "created_at": "2025-09-05",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 158960,
+          "orderDate": "9/12/2025",
+          "status": "Cancelled"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "7",
+          "name": "Surgical Mask",
+          "category": "Surgical",
+          "price": 10,
+          "stock": 1000,
+          "description": "Protective face mask for medical procedures.",
+          "image": "https://media.istockphoto.com/id/1279858952/photo/protective-medical-face-mask.jpg?s=612x612&w=0&k=20&c=GlmxFvRBrRlDkYpWKz7Ha7LobTQ1rkx7N6HW_GjnuQw=",
+          "isActive": true,
+          "created_at": "2025-09-07"
+        },
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": 120,
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01"
+        },
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02"
+        },
+        {
+          "id": "6",
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+          "isActive": true,
+          "created_at": "2025-09-13"
+        }
+      ]
+    },
+    {
+      "id": "6c3b",
+      "name": "cr7",
+      "email": "cr7@gmail.com",
+      "password": "cr17",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/13/2025",
+      "cart": [
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": "101",
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Hand Sanitizer",
+          "category": "Personal Care",
+          "price": 150,
+          "stock": 200,
+          "description": "Kills 99.9% germs and bacteria.",
+          "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+          "isActive": true,
+          "created_at": "2025-09-13",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://media.istockphoto.com/id/1217210776/photo/generic-paracetamol-500mg-tablets.jpg?s=612x612&w=0&k=20&c=Tb7EuiMSA9yw7MpBLrT543Kd_l7IrabQfxfGzRRRgNI=",
+          "isActive": true,
+          "created_at": "2025-09-15",
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "status": "Shipped",
+          "id": "ORD-E8J9AS",
+          "shippingInfo": {
+            "fullName": "Ronaldo",
+            "phone": "7239845093",
+            "address": "Yrm street Malappuram",
+            "pincode": "659023"
+          },
+          "paymentMethod": "card",
+          "items": [
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": 120,
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 1
+            },
+            {
+              "id": "3",
+              "name": "Blood Pressure Monitor",
+              "category": "Diagnostics",
+              "price": 2500,
+              "stock": 40,
+              "description": "Monitors blood pressure and pulse rate.",
+              "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+              "isActive": true,
+              "created_at": "2025-09-02",
+              "quantity": 2
+            },
+            {
+              "id": "6",
+              "name": "Hand Sanitizer",
+              "category": "Personal Care",
+              "price": 150,
+              "stock": 200,
+              "description": "Kills 99.9% germs and bacteria.",
+              "image": "https://media.istockphoto.com/id/1221991289/photo/spray-atomizer-in-female-hand-water-particles-in-the-air-spray-with-a-water-panoramic-view.jpg?s=612x612&w=0&k=20&c=qIKTAxPBfskSA66kaBGaWzDc3ZF-SOGr9PdM060AL-s=",
+              "isActive": true,
+              "created_at": "2025-09-13",
+              "quantity": 2
+            },
+            {
+              "id": "8",
+              "name": "Paracetamol Tablets",
+              "category": "Pharmacy",
+              "price": 100,
+              "stock": 500,
+              "description": "Pain relief and fever reducer.",
+              "image": "https://media.istockphoto.com/id/1217210776/photo/generic-paracetamol-500mg-tablets.jpg?s=612x612&w=0&k=20&c=Tb7EuiMSA9yw7MpBLrT543Kd_l7IrabQfxfGzRRRgNI=",
+              "isActive": true,
+              "created_at": "2025-09-15",
+              "quantity": 2
+            }
+          ],
+          "totalAmount": 3050,
+          "orderDate": "9/14/2025"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "8",
+          "name": "Paracetamol Tablets",
+          "category": "Pharmacy",
+          "price": 100,
+          "stock": 500,
+          "description": "Pain relief and fever reducer.",
+          "image": "https://media.istockphoto.com/id/1217210776/photo/generic-paracetamol-500mg-tablets.jpg?s=612x612&w=0&k=20&c=Tb7EuiMSA9yw7MpBLrT543Kd_l7IrabQfxfGzRRRgNI=",
+          "isActive": true,
+          "created_at": "2025-09-15"
+        },
+        {
+          "id": "27",
+          "name": "IV Stand",
+          "category": "Equipment / Furniture",
+          "price": 1500,
+          "stock": 40,
+          "description": "Stand for intravenous fluid administration.",
+          "image": "https://i.pinimg.com/736x/fa/16/51/fa1651c16d69e2c9a9e9f6881eb6611f.jpg",
+          "isActive": true,
+          "created_at": "2025-09-10"
+        },
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": "101",
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22"
+        },
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02"
+        }
+      ]
+    },
+    {
+      "id": "bd22",
+      "name": "Finan ",
+      "email": "finan12@gmail.com",
+      "password": "1234578",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/13/2025",
+      "cart": [
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": "101",
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22",
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "status": "Delivered",
+          "id": "ORD-H5D7IF",
+          "shippingInfo": {
+            "fullName": "Messi",
+            "phone": "7629482432",
+            "address": "Ros street,Thrissur",
+            "pincode": "609347"
+          },
+          "paymentMethod": "gpay",
+          "items": [
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": 120,
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 2
+            },
+            {
+              "id": "1",
+              "name": "Stethoscope",
+              "category": "Diagnostics",
+              "price": 1200,
+              "stock": 50,
+              "description": "Acoustic device for listening to internal body sounds.",
+              "image": "https://i.pinimg.com/736x/42/dc/4d/42dc4d2923a7a639069557151839727a.jpg",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 2
+            }
+          ],
+          "totalAmount": 1500,
+          "orderDate": "9/15/2025"
+        },
+        {
+          "id": "ORD-C3VL2M",
+          "shippingInfo": {
+            "fullName": "Finan",
+            "phone": "67854346",
+            "address": "Kolambaan house mannarkkad",
+            "pincode": "678583"
+          },
+          "paymentMethod": "card",
+          "items": [
+            {
+              "id": "9",
+              "name": "Forceps",
+              "category": "Surgical",
+              "price": 300,
+              "stock": 120,
+              "description": "Surgical instrument for grasping.",
+              "image": "https://media.istockphoto.com/id/612264748/photo/medical-instruments-for-doctor-on-blue-table.jpg?s=612x612&w=0&k=20&c=TmL5PooQEpbssVsnaVOkTCShEe86X2IklRNlX_YmlUE=",
+              "isActive": true,
+              "created_at": "2025-09-12",
+              "quantity": 3
+            },
+            {
+              "id": "4",
+              "name": "First Aid Kit",
+              "category": "Therapy & Emergency",
+              "price": 700,
+              "stock": "101",
+              "description": "Portable box with basic medical supplies.",
+              "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+              "isActive": true,
+              "created_at": "2025-09-22",
+              "quantity": 3
+            }
+          ],
+          "totalAmount": 1000,
+          "orderDate": "9/23/2025",
+          "status": "Pending"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Blood Pressure Monitor",
+          "category": "Diagnostics",
+          "price": 2500,
+          "stock": 40,
+          "description": "Monitors blood pressure and pulse rate.",
+          "image": "https://images.pexels.com/photos/32292593/pexels-photo-32292593.jpeg",
+          "isActive": true,
+          "created_at": "2025-09-02"
+        },
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": "101",
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22"
+        },
+        {
+          "id": "5",
+          "name": "ECG Machine",
+          "category": "Diagnostics",
+          "price": 45000,
+          "stock": 6,
+          "description": "Records electrical signals from the heart.",
+          "image": "https://i.pinimg.com/736x/93/3c/74/933c749869b2f4cf272db60001caeb72.jpg",
+          "isActive": true,
+          "created_at": "2025-09-06"
+        }
+      ]
+    },
+    {
+      "id": "5787",
+      "name": "neymar",
+      "email": "neymar@gmail.com",
+      "password": "neymar",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/16/2025",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Digital Thermometer",
+          "category": "Diagnostics",
+          "price": 300,
+          "stock": "120",
+          "description": "Measures body temperature accurately.",
+          "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "isActive": true,
+          "created_at": "2025-09-01",
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "id": "ORD-F7F9FI",
+          "shippingInfo": {
+            "fullName": "Neymar",
+            "phone": "6509237659",
+            "address": "Rio street,Manjeri",
+            "pincode": "652098"
+          },
+          "paymentMethod": "cod",
+          "items": [
+            {
+              "id": "36",
+              "name": "Crutches",
+              "category": "Personal Care",
+              "price": 900,
+              "stock": 25,
+              "description": "Assistive walking device for injured patients.",
+              "image": "https://i.pinimg.com/1200x/b7/b5/e5/b7b5e5f49594fd72f67e398b5b03aa9b.jpg",
+              "isActive": true,
+              "created_at": "2025-09-07",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 900,
+          "orderDate": "9/16/2025",
+          "status": "Cancelled"
+        },
+        {
+          "id": "ORD-I7C9WJ",
+          "shippingInfo": {
+            "fullName": "Bumrah",
+            "phone": "7280394248",
+            "address": "Azd street,Kongad",
+            "pincode": "630857"
+          },
+          "paymentMethod": "cod",
+          "items": [
+            {
+              "id": "10",
+              "name": "Scalpel",
+              "category": "Surgical",
+              "price": 100,
+              "stock": 200,
+              "description": "Small sharp blade for surgery.",
+              "image": "https://media.istockphoto.com/id/514131915/photo/surgeon-starting-a-surgery.jpg?s=612x612&w=0&k=20&c=OPrVcgqUiYx-Rs39stfsS0Cl35tYCgiPdpXVvJkzIkg=",
+              "isActive": true,
+              "created_at": "2025-09-12",
+              "quantity": 1
+            },
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": "120",
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 400,
+          "orderDate": "9/16/2025",
+          "status": "Delivered"
+        }
+      ],
+      "wishlist": []
+    },
+    {
+      "id": "01dd",
+      "name": "messi",
+      "email": "messed@gmail.com",
+      "password": "burger",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/16/2025",
+      "cart": [
+        {
+          "id": "24",
+          "name": "Ventilator",
+          "category": "Therapy & Emergency",
+          "price": 300000,
+          "stock": 2,
+          "description": "Provides mechanical ventilation to patients.",
+          "image": "https://i.pinimg.com/1200x/24/e2/de/24e2de3a5a4dcc1f9193750c58d50bdc.jpg",
+          "isActive": true,
+          "created_at": "2025-09-09",
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "status": "Shipped",
+          "id": "ORD-F2D0XR",
+          "shippingInfo": {
+            "fullName": "Ramos",
+            "phone": "9823087592",
+            "address": "Fkr street,Kollam",
+            "pincode": "601942"
+          },
+          "paymentMethod": "gpay",
+          "items": [
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": "120",
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 300,
+          "orderDate": "9/16/2025"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "24",
+          "name": "Ventilator",
+          "category": "Therapy & Emergency",
+          "price": 300000,
+          "stock": 2,
+          "description": "Provides mechanical ventilation to patients.",
+          "image": "https://i.pinimg.com/1200x/24/e2/de/24e2de3a5a4dcc1f9193750c58d50bdc.jpg",
+          "isActive": true,
+          "created_at": "2025-09-09"
+        }
+      ]
+    },
+    {
+      "id": "7dc3",
+      "name": "Finan Roshan k",
+      "email": "finan@gmail.com",
+      "password": "xaisjgwhdjk",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/16/2025",
+      "cart": [],
+      "orders": [
+        {
+          "id": "ORD-Z3C1ML",
+          "shippingInfo": {
+            "fullName": "Marcelo",
+            "phone": "9207490294",
+            "address": "Wxy street,Palakkad",
+            "pincode": "668430"
+          },
+          "paymentMethod": "cod",
+          "items": [
+            {
+              "id": "2",
+              "name": "Digital Thermometer",
+              "category": "Diagnostics",
+              "price": 300,
+              "stock": "120",
+              "description": "Measures body temperature accurately.",
+              "image": "https://plus.unsplash.com/premium_photo-1661526565804-c2c01a72723c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "isActive": true,
+              "created_at": "2025-09-01",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 300,
+          "orderDate": "9/16/2025",
+          "status": "Delivered"
+        },
+        {
+          "id": "ORD-V5C0XL",
+          "shippingInfo": {
+            "fullName": "Tovino",
+            "phone": "92044236782",
+            "address": "Pvr street,Kondotty",
+            "pincode": "602260"
+          },
+          "paymentMethod": "card",
+          "items": [
+            {
+              "id": "10",
+              "name": "Scalpel",
+              "category": "Surgical",
+              "price": 100,
+              "stock": 200,
+              "description": "Small sharp blade for surgery.",
+              "image": "https://media.istockphoto.com/id/514131915/photo/surgeon-starting-a-surgery.jpg?s=612x612&w=0&k=20&c=OPrVcgqUiYx-Rs39stfsS0Cl35tYCgiPdpXVvJkzIkg=",
+              "isActive": true,
+              "created_at": "2025-09-12",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 100,
+          "orderDate": "9/16/2025",
+          "status": "Shipped"
+        },
+        {
+          "id": "ORD-74DSZE",
+          "shippingInfo": {
+            "fullName": "Mane",
+            "phone": "9826074510",
+            "address": "Kyz street,Pattambi",
+            "pincode": "628945"
+          },
+          "paymentMethod": "cod",
+          "items": [
+            {
+              "id": "18",
+              "name": "Cough Syrup",
+              "category": "Pharmacy",
+              "price": 200,
+              "stock": 250,
+              "description": "Relieves cough and throat irritation.",
+              "image": "https://i.pinimg.com/736x/54/c0/6c/54c06c7281330b5ad95114ee72bfffe8.jpg",
+              "isActive": true,
+              "created_at": "2025-09-16",
+              "quantity": 2
+            },
+            {
+              "id": "4",
+              "name": "First Aid Kit",
+              "category": "Therapy & Emergency",
+              "price": 700,
+              "stock": "101",
+              "description": "Portable box with basic medical supplies.",
+              "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+              "isActive": true,
+              "created_at": "2025-09-22",
+              "quantity": 1
+            }
+          ],
+          "totalAmount": 900,
+          "orderDate": "9/16/2025",
+          "status": "Shipped"
+        }
+      ],
+      "wishlist": []
+    },
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "isBlock": false,
+      "created_at": "9/17/2025",
+      "wishlist": [
+        {
+          "id": "44",
+          "name": "Dental Drill",
+          "category": "Equipment / Furniture",
+          "price": 15000,
+          "stock": 8,
+          "description": "High-speed drill for dental procedures.",
+          "image": "https://i.pinimg.com/736x/d4/6d/3a/d46d3a6ebf7afdaecbe57b6cad02cae8.jpg",
+          "isActive": true,
+          "created_at": "2025-09-17"
+        }
+      ],
+      "cart": [
+        {
+          "id": "4",
+          "name": "First Aid Kit",
+          "category": "Therapy & Emergency",
+          "price": 700,
+          "stock": "101",
+          "description": "Portable box with basic medical supplies.",
+          "image": "https://i.pinimg.com/736x/b2/05/23/b2052333f515539b8a67c178ab39d53b.jpg",
+          "isActive": true,
+          "created_at": "2025-09-22",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "a120",
+      "name": "razu",
+      "email": "rasheed@gmail.com",
+      "password": "567890",
+      "role": "user",
+      "isBlock": false,
+      "created_at": "9/23/2025",
+      "cart": [],
+      "orders": [],
+      "wishlist": []
+    }
+  ]
+}

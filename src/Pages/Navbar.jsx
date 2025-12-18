@@ -1,0 +1,69 @@
+import React, { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { Search, Heart, ShoppingCart, LogOut } from "lucide-react";
+import Logout from './Logout';
+
+
+
+function Navbar({ search, setSearch }) {
+  const navigate = useNavigate()
+  const [localSearch, setLocalSearch] = useState("");
+
+  return (
+    <nav className="bg-black px-6 py-3 flex items-center justify-between pb-2">
+
+
+      <div className="flex items-center space-x-3">
+        <img
+          src="/logos.png"
+          alt="Logo"
+          className="h-12 w-25 object-cover rounded-lg" />
+        <span className="text-red-400 font-semibold text-xl">MediZone</span>
+      </div>
+
+
+      <div className="hidden md:flex space-x-6 ml-10">
+        <Link to="/" className="text-white hover:text-white transition">Home</Link>
+        <Link to="/products" className="text-white hover:text-white transition">Products</Link>
+        <Link to="/profile" className="text-white hover:text-white transition">Profile</Link>
+      </div>
+
+      <div className="flex-1 mx-6 max-w-md hidden md:block">
+        <div className="relative">
+          <input
+            onChange={(e) => {setLocalSearch(e.target.value)
+                 setSearch && setSearch(e.target.value);
+            }}
+
+            value={localSearch}
+            type="text"
+            placeholder="Search medical equipment..."
+            className="w-full pl-10 pr-4 py-2 rounded-lg border-white bg-white-800 text-white placeholder-gray-400 border border-gray-700 focus:ring-2 focus:ring-gray-500 focus:outline-none"
+          />
+
+        </div>
+      </div>
+
+
+      <div className="flex items-center space-x-5 ">
+        <button onClick={() => navigate("/wishlist")}
+          className="text-gray-300 hover:text-red-400 transition">
+          <Heart className="h-6 w-6" />
+        </button>
+
+
+        <button onClick={() => navigate("/cart")}
+          className="text-gray-300 hover:text-green-400 transition">
+          <ShoppingCart className="h-6 w-6" />
+        </button>
+
+        <Logout />
+
+      </div>
+
+
+    </nav>
+  )
+}
+
+export default Navbar
