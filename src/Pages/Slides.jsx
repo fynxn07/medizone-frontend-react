@@ -24,7 +24,7 @@ function Slides() {
   }, [index]);
 
   return (
-    <div className="bg-black flex items-center justify-center">
+    <div className="bg-black flex items-center justify-center mt-4">
       <div className="relative w-full max-w-5xl h-[260px] sm:h-[320px] md:h-[400px] rounded-2xl overflow-hidden shadow-2xl">
         <img
           src={slides[index].img}
