@@ -1,51 +1,3 @@
-// import { createContext, useState } from "react";
-// import { useNavigate } from "react-router-dom";
-
-// // export context
-// export const authContext = createContext();
-
-// function ProtectProvider({ children }) {
-//       const navigate = useNavigate();
-  
-//   const [user,setCurrentUser] = useState(null)
-//   const [auth, setAuth] = useState({
-//     isAuthenticated: false,
-//     role: null,
-//   });
-
-//       function removeLogout() {
-//         localStorage.removeItem("userId");
-//         localStorage.removeItem("isLoggedIn");
-//         setCurrentUser(null)
-//         localStorage.clear()
-//         navigate("/login");
-//     }
-
-//   const login = (role) => {
-//     setAuth({
-//       isAuthenticated: true,
-//       role: role,
-//     });
-//   };
-
-  
-//   const logout = () => {
-//     setAuth({
-//       isAuthenticated: false,
-//       role: null,
-//     });
-//   };
-
-//   return (
-//     <authContext.Provider value={{ auth, login, logout,removeLogout,user }}>
-//       {children}
-//     </authContext.Provider>
-//   );
-// }
-
-// export default ProtectProvider;
-
-
 import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -66,7 +18,7 @@ function ProtectProvider({ children }) {
   const {setCart}=useContext(cartContext)
   const {setWishlist}=useContext(wishlistContext)
 
-  // called on successful login (you can extend this)
+ 
   const login = (role, userData, accessToken) => {
     setAuth({
       isAuthenticated: true,
@@ -96,13 +48,13 @@ function ProtectProvider({ children }) {
     
   };
 
-  // 👇 this is what your <Logout /> component calls
+ 
   const removeLogout = async () => {
     const access = localStorage.getItem("access");
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/medicals/auth/logout/",
+        "https://medizone.duckdns.org/medicals/auth/logout/",
         {},
         {
           headers: access ? { Authorization: `Bearer ${access}` } : {},
@@ -120,17 +72,16 @@ function ProtectProvider({ children }) {
       console.log("LOGOUT ERROR:", err.response?.data || err.message);
     }
     setCart([]);
-    setWishlist([]) // still clear cart in any case
+    setWishlist([])
   }
 
-    // Clear frontend auth data
+  
     localStorage.removeItem("access");
     localStorage.removeItem("user");
     localStorage.removeItem("userId");
     localStorage.removeItem("isLoggedIn");
 
-    logout(); // reset auth + user state
-
+    logout();
     navigate("/login");
   };
 

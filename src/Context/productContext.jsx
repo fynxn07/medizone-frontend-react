@@ -8,8 +8,8 @@ function ProductProvider({children}){
 
     const fetchProduct=async()=>{
         try{
-            const res=await axios.get('http://127.0.0.1:8000/products/products/');
-            // console.log(res.data);
+            const res=await axios.get('https://medizone.duckdns.org/products/products/');
+         
             setProducts(res.data)
         }
         catch(e){

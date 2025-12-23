@@ -10,7 +10,7 @@ function TopProducts() {
   const getImageUrl = (img) => {
     if (!img) return "https://via.placeholder.com/150";
     if (img.startsWith("http")) return img;
-    return `http://127.0.0.1:8000${img}`;
+    return `https://medizone.duckdns.org${img}`;
   };
 
 

@@ -15,7 +15,7 @@ function SideBar() {
 
   const Logout = () => {
     
-    localStorage.clear(); // adjust based on your auth setup
+    localStorage.clear(); 
     navigate("/login");
   };
 

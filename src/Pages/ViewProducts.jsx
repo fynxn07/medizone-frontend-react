@@ -19,7 +19,7 @@ function ViewProducts() {
 
   useEffect(() => {
     axios
-      .get(`http://127.0.0.1:8000/products/products/${id}`)
+      .get(`https://medizone.duckdns.org/products/products/${id}`)
       .then((res) => setProduct(res.data))
       .catch((err) => {
         console.log("Error fetching product:", err);
@@ -31,7 +31,7 @@ function ViewProducts() {
   const getImageUrl = (img) => {
     if (!img) return "https://via.placeholder.com/300";
     if (img.startsWith("http")) return img;
-    return `http://127.0.0.1:8000${img}`;
+    return `https://medizone.duckdns.org${img}`;
   };
 
 

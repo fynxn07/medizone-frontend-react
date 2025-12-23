@@ -22,7 +22,7 @@ function ForgotPassword() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://127.0.0.1:8000/medicals/auth/password_reset/",
+        "https://medizone.duckdns.org/medicals/auth/password_reset/",
         { email }
       );
 

@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import Navbar from "./Navbar";
 import { cartContext } from "../Context/cartContext";
 import { toast } from "react-toastify";
-import axios from "axios";
+import axiosInstance from "../Admin/Services/AxioxInstance";
 import { useNavigate } from "react-router-dom";
 import { loadRazorpay } from "../utils/loadRazorpay";
 
@@ -14,7 +14,7 @@ function Payment() {
     pincode: "",
   });
 
-  // ✅ only two options now
+  
   const [payment, setPayment] = useState("online");
 
   const { cart, total, reloadCart } = useContext(cartContext);
@@ -43,11 +43,11 @@ function Payment() {
       return;
     }
 
-    // ✅ CASH ON DELIVERY
+    
     if (payment === "cod") {
       try {
-        await axios.post(
-          "http://127.0.0.1:8000/orders/place_orders/",
+        await axiosInstance.post(
+          "/orders/place_orders/",
           {
             shippingInfo: savedShipping,
             paymentMethod: "cod",
@@ -69,7 +69,7 @@ function Payment() {
       return;
     }
 
-    // 🚀 ONLINE PAYMENT (RAZORPAY)
+    
     startRazorpayPayment(token);
   };
 
@@ -81,9 +81,9 @@ function Payment() {
     }
 
     try {
-      // 1️⃣ Create Razorpay order
-      const orderRes = await axios.post(
-        "http://127.0.0.1:8000/payment/create/",
+      
+      const orderRes = await axiosInstance.post(
+        "/payment/create/",
         { amount: total },
         {
           headers: {
@@ -94,7 +94,7 @@ function Payment() {
 
       const { order_id, key } = orderRes.data;
 
-      // 2️⃣ Razorpay options
+    
       const options = {
         key,
         amount: total * 100,
@@ -105,9 +105,9 @@ function Payment() {
 
         handler: async function (response) {
           try {
-            // 3️⃣ Verify payment
-            await axios.post(
-              "http://127.0.0.1:8000/payment/verify/",
+            
+            await axiosInstance.post(
+              "/payment/verify/",
               {
                 razorpay_order_id: response.razorpay_order_id,
                 razorpay_payment_id: response.razorpay_payment_id,
@@ -120,9 +120,9 @@ function Payment() {
               }
             );
 
-            // 4️⃣ Place order after successful payment
-            await axios.post(
-              "http://127.0.0.1:8000/orders/place_orders/",
+            
+            await axiosInstance.post(
+              "/orders/place_orders/",
               {
                 shippingInfo: savedShipping,
                 paymentMethod: "online",
@@ -176,7 +176,7 @@ function Payment() {
         <h2 className="text-2xl font-bold text-center mb-8">Payment Page</h2>
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
-          {/* SHIPPING */}
+         
           <div className="md:col-span-2 ml-10 bg-gray-900 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-4 border-b border-gray-700 pb-2">
               Shipping Details
@@ -215,7 +215,7 @@ function Payment() {
             </button>
           </div>
 
-          {/* PAYMENT METHOD */}
+         
           <div className="md:col-span-2 p-6">
             <h3 className="text-xl font-semibold mb-4 text-center">
               Payment Method

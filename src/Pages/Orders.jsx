@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../Admin/Services/AxioxInstance";
 import Navbar from "./Navbar";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
@@ -20,8 +20,8 @@ function Orders() {
           return;
         }
 
-        const res = await axios.get(
-          "http://127.0.0.1:8000/orders/orders/",
+        const res = await axiosInstance.get(
+          "/orders/orders/",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -72,7 +72,7 @@ function Orders() {
                   <h3 className="font-semibold text-lg">
                     Order #{order.id}
                   </h3>
-                  {/* orderDate is already formatted in serializer */}
+                  
                   <span className="text-sm text-gray-400">
                     {order.orderDate}
                   </span>
@@ -103,7 +103,6 @@ function Orders() {
                   {order.status}
                 </p>
 
-                {/* Order items */}
                 {order.items && order.items.length > 0 && (
                   <div className="mt-3">
                     <h4 className="font-semibold mb-1">Items:</h4>
@@ -113,17 +112,17 @@ function Orders() {
                           key={index}
                           className="grid grid-cols-3 items-center border-b border-gray-700 pb-1"
                         >
-                          {/* Product name */}
+                         
                           <span className="truncate">
                             {item.product?.name || "Product"}
                           </span>
 
-                          {/* Quantity */}
+                          
                           <span className="text-center">
                             Qty: {item.quantity}
                           </span>
 
-                          {/* Price */}
+                          
                           <span className="text-right">
                             ₹{item.price}
                           </span>

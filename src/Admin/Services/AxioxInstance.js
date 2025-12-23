@@ -1,19 +1,19 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://medizone.duckdns.org",
   withCredentials: true,
 });
 
+
 axiosInstance.interceptors.request.use((config) => {
   const token = localStorage.getItem("access");
-  if (token){
+  if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
   return config;
 });
 
-export default axiosInstance;
 
 
 axiosInstance.interceptors.response.use(
@@ -28,25 +28,33 @@ axiosInstance.interceptors.response.use(
       originalRequest._retry = true;
 
       try {
+        
+
         const res = await axios.post(
-          "http://127.0.0.1:8000/medicals/auth/refresh/",
+          "https://medizone.duckdns.org/medicals/auth/refresh/",
           {},
           { withCredentials: true }
         );
 
-        localStorage.setItem("access", res.data.access);
+        const newAccess = res.data.access;
+        console.log(newAccess)
+
+        localStorage.setItem("access", newAccess);
 
         originalRequest.headers.Authorization =
-          `Bearer ${res.data.access}`;
+          `Bearer ${newAccess}`;
 
         return axiosInstance(originalRequest);
       } catch (err) {
         localStorage.removeItem("access");
         localStorage.removeItem("isLoggedIn");
         window.location.href = "/login";
+        console.log(err)
       }
     }
 
     return Promise.reject(error);
   }
 );
+
+export default axiosInstance;
