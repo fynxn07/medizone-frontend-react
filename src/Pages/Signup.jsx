@@ -99,7 +99,7 @@ function Signup() {
                         
                         <div className="space-y-2">
                             <label className="text-sm font-medium text-gray-300 block">
-                                Full Name
+                                Username
                             </label>
                             <div className="relative">
                                 <input
