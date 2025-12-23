@@ -18,27 +18,21 @@ function Slides() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIndex((prev) => (prev + 1) % slides.length); 
+      setIndex((prev) => (prev + 1) % slides.length);
     }, 3000);
     return () => clearTimeout(timer);
   }, [index]);
 
   return (
-    <div className=" bg-black flex items-center justify-center ">
-      <div className="relative w-full  py-0 max-w-4xl h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-
+    <div className="bg-black flex items-center justify-center">
+      <div className="relative w-full max-w-5xl h-[260px] sm:h-[320px] md:h-[400px] rounded-2xl overflow-hidden shadow-2xl">
         <img
           src={slides[index].img}
-          alt="Slide"
-          className="w-full h-full object-cover transition-opacity duration-700"
+          className="w-full h-full object-cover"
         />
-
-
-
-
       </div>
-
     </div>
+
 
   );
 }
