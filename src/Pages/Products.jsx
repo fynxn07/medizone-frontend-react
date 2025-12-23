@@ -36,7 +36,7 @@ function Products() {
       <div className="bg-black py-15">
         <h2 className="text-2xl font-bold text-center text-white mb-15"> Products </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {products.map((product) => {
             const isFavourite = wishlist.some((item) => item.id === product.id);
 
@@ -75,7 +75,7 @@ function Products() {
 
                 <div className="p-4 flex flex-col flex-1">
                   <h3 className="font-semibold text-lg text-black">{product.name}</h3>
-                  <p className="text-gray-500 text-sm mb-4 flex-1">{product.description}</p>
+                  <p className="text-gray-500 text-sm mb-4 flex-2">{product.description}</p>
 
                   <div className="mt-auto flex items-center justify-between">
                     <p className="text-green-600 font-bold">₹{product.price}</p>
