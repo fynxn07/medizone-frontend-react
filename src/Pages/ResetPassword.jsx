@@ -26,7 +26,7 @@ function ResetPassword() {
     try {
       setLoading(true);
       const res = await axios.post(
-        `https://medizone.duckdns.org/medicals/auth/password_reset_confirm/${uid}/${token}`,
+        `https://medizone-backend-qqj6.onrender.com/medicals/auth/password_reset_confirm/${uid}/${token}`,
         {
           password,
           confirmPassword,

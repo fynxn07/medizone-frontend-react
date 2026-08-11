@@ -15,7 +15,7 @@ function Wishlist() {
 const getImageUrl = (img) => {
     if (!img) return "https://via.placeholder.com/150";
     if (img.startsWith("http")) return img;
-    return `https://medizone.duckdns.org${img}`;
+    return `https://medizone-backend-qqj6.onrender.com${img}`;
   };
  
 

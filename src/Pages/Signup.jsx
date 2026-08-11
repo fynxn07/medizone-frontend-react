@@ -45,7 +45,7 @@ function Signup() {
 
         try {
             
-            const res = await axios.post("https://medizone.duckdns.org/medicals/auth/register/", {
+            const res = await axios.post("https://medizone-backend-qqj6.onrender.com/medicals/auth/register/", {
                 username: form.name,      
                 email: form.email,
                 password: form.password,

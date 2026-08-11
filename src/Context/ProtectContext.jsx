@@ -54,7 +54,7 @@ function ProtectProvider({ children }) {
 
     try {
       await axios.post(
-        "https://medizone.duckdns.org/medicals/auth/logout/",
+        "https://medizone-backend-qqj6.onrender.com/medicals/auth/logout/",
         {},
         {
           headers: access ? { Authorization: `Bearer ${access}` } : {},

@@ -33,7 +33,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "https://medizone.duckdns.org/medicals/auth/login/",
+        "https://medizone-backend-qqj6.onrender.com/medicals/auth/login/",
         {
           username: user,
           password: pass,

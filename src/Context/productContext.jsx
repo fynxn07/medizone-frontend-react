@@ -8,7 +8,7 @@ function ProductProvider({children}){
 
     const fetchProduct=async()=>{
         try{
-            const res=await axios.get('https://medizone.duckdns.org/products/products/');
+            const res=await axios.get('https://medizone-backend-qqj6.onrender.com/products/products/');
          
             setProducts(res.data)
         }

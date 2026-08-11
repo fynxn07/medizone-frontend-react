@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://medizone.duckdns.org",
+  baseURL: "https://medizone-backend-qqj6.onrender.com",
   withCredentials: true,
 });
 
@@ -31,7 +31,7 @@ axiosInstance.interceptors.response.use(
         
 
         const res = await axios.post(
-          "https://medizone.duckdns.org/medicals/auth/refresh/",
+          "https://medizone-backend-qqj6.onrender.com/medicals/auth/refresh/",
           {},
           { withCredentials: true }
         );
